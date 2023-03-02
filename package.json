@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jsquery": "^1.1.1",
+    "popper.js": "^1.16.1",
+    "roboto-fontface": "^0.10.0"
+  }
+}
