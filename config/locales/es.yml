@@ -1,5 +1,5 @@
 ---
-en:
+es:
   activerecord:
     models:
       category:
@@ -7,10 +7,10 @@ en:
         others: Categorías
   categories:
     form:
-      description: Description
-      name: Name
+      description: Descripcion
+      name: Nombre
   category_new:
-    title: Title
+    title: Nueva Categoría
   common:
     back: Atrás
-  hello: Hello world
+  hello: Hola Mundo

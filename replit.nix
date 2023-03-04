@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+        pkgs.mastodon
         pkgs.yarn
         pkgs.nano
         pkgs.ruby_3_0
