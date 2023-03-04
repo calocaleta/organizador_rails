@@ -29,6 +29,7 @@ gem "jbuilder"
 
 gem "hamlit"
 gem "simple_form"
+gem 'annotate', '~> 3.2'
 
 
 # Use Redis adapter to run Action Cable in production
