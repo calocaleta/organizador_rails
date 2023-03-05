@@ -19,5 +19,8 @@ class Task < ApplicationRecord
 
   def due_date_validity
     return if due_date.blank?
+    return if due_date > Date.today
+
+    errors.add :due_date, '-La fecha no puede estar en el pasado-'
   end
 end
