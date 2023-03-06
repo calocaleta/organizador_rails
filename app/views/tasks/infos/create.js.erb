@@ -1,0 +1,11 @@
+<%- if @note.persisted? %>
+    var parentNode = document.querySelector(".infos-container .infos")
+    var div = document.createElement("div")
+    div.innerHTML = "<%= j render 'tasks/infos/info', info: @info %>"
+    parentNode.appendChild(div)
+    document.getElementById("info_body").value = "";
+    window.scrollTo({
+        top: window.innerHeight,
+        behavior: "smooth"
+    });
+<% end %>

@@ -13,6 +13,14 @@
   %b Category:
   = @task.category
 
+.infos-container
+  .infos
+  - @task.infos.each do |info|
+    = render "tasks/infos/info.html.haml", info: info
+
+  = simple_form_for Info.new, url: task_infos_path(task_id: @task.id), remote: true do |f|
+    = f.input :body, label: false, as: :string, placeholder: 'Digite su nota', input_html: {autocomplete: :off}
+
 = link_to 'Edit', edit_task_path(@task)
 \|
 = link_to 'Back', tasks_path
