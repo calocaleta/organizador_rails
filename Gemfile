@@ -34,7 +34,7 @@ gem 'rails-i18n', '~> 7.0', '>= 7.0.6'
 gem 'devise', '~> 4.9'
 gem 'jquery-rails'
 gem 'cocoon'
-
+gem 'cancancan', '~> 3.5'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
